@@ -6,35 +6,35 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>Welcome!</h1>
-    <h2>My name is Derik Linch, and this is my portfolio site. Enjoy!</h2>
     <div>
-      <!-- Original do you hear what I hear!!!!! -->
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ADj-Ru3JQp0?autoplay=1"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
+      <div class="video-background">
+        <div class="video-foreground">
+          <script type="text/javascript">
+            var maximum = 3;
+            var minimum = 1;
+            var randomnumber = Math.floor(Math.random() * (maximum - minimum + 1)) + minimum;
 
-      <!-- Beautiful cover of do you hear what I hear!!!!! -->
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/3zPaKwA7838"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
+            if (randomnumber == 1) {
+              document.write('<iframe src="https://www.youtube.com/embed/3zPaKwA7838?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>');
+            } else if (randomnumber == 2) {
+              document.write('<iframe src="https://www.youtube.com/embed/DD6FccqZjFg?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>');
+            } else if (randomnumber == 3) {
+              document.write('<iframe src="https://www.youtube.com/embed/ADj-Ru3JQp0?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>');
+            } else {
+              document.write('<iframe src="https://www.youtube.com/embed/ADj-Ru3JQp0?controls=0&showinfo=0&rel=0&autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>');
+            }
+          </script>
+        </div>
+      </div>
 
-      <!-- Rap version of do you hear what I hear -->
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/DD6FccqZjFg"
-        frameborder="0"
-        allowfullscreen>
-      </iframe>
+      <div id="vidtop-content">
+        <div class="vid-info">
+          <h1>Welcome!</h1>
+          <p>
+            My name is Derik Linch, and this is my portfolio site. Enjoy!
+          </p>
+        </div>
+      </div>
 
     </div>
   </body>
